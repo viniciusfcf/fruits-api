@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-fruits-api
+  description: Descrição legal da api
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: meu-time
